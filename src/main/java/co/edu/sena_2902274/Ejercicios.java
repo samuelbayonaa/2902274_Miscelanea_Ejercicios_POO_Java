@@ -138,9 +138,37 @@ public class Ejercicios {
             return "El cociente es: " +(d1 / d2); 
         }else{
 
-            return ("El divisor debe ser diferente a cero.");
+            return ("La division no es posible.");
         }
 
     }
+
+    public String sumaOmultiAyB (double d1, double d2){
+
+        if(d1 < 0 || d2 < 0){
+
+            return "Es una suma: " + ( d1 - d2 );
+
+        }else{
+
+            return "Es una multiplicacion: " + (d1 * d2); 
+        }
+    }
+
+    public String añobisSiyNO (double d1){
+
+        if ((d1 % 4 == 0) && (d1 % 100 != 0) || (d1 % 400 == 0)) {
+
+            return  d1 + " Es un año bisiesto.";
+            
+        }else{
+
+            return d1 + " No es un año bisiesto.";
+
+        }
+
+    }
+
+
 }
 
