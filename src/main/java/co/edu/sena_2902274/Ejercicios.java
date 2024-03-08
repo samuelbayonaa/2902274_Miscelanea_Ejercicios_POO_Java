@@ -67,6 +67,8 @@ public class Ejercicios {
 
         return ( (d1+d2+d3) / 3);
     }
+ 
+ //condicionales
 
     public String positivoNegativo(double d1){
         
