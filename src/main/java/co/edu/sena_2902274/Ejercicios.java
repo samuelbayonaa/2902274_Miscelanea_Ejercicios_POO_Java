@@ -1,8 +1,9 @@
 package co.edu.sena_2902274;
  
-//operadores
 
 public class Ejercicios {
+ 
+ //operadores
 
     public double areaTriangulo(double d1, double d2){
 
@@ -67,6 +68,8 @@ public class Ejercicios {
 
         return ( (d1+d2+d3) / 3);
     }
+ 
+ //condicionales
 
     public String positivoNegativo(double d1){
         
