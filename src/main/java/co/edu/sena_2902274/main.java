@@ -152,14 +152,14 @@ public class main{
         System.out.println("2.7 Determinar si un año es bisiesto o no.");
         System.out.print("Ingrese año a evaluar: ");
         d1 = scr.nextDouble();
-        resultado = ejercicios.añobisSiyNO (d1);
+        resultado = ejercicios.añobissiYnO(d1);
         System.out.println("" + resultado);
 
 
 
         break;
         default:
-        System.out.println("Seleccione otra opcion :)");
+        System.out.println("Seleccione otra opcion :");
         break;
         
     }

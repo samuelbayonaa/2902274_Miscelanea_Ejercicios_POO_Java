@@ -155,7 +155,7 @@ public class Ejercicios {
         }
     }
 
-    public String añobisSiyNO (double d1){
+    public String añobissiYnO (double d1){
 
         if ((d1 % 4 == 0) && (d1 % 100 != 0) || (d1 % 400 == 0)) {
 
